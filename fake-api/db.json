@@ -1,0 +1,85 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Eduardo Costa",
+      "idade": 43,
+      "email": "edu@edu.com"
+    },
+    {
+      "id": 2,
+      "nome": "Mário Costa",
+      "idade": 43,
+      "email": "edu@edu.com"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": 6
+    },
+    {
+      "nome": "Maria Eduarda",
+      "altura": 1.6,
+      "peso": 60,
+      "IMC": 23.437499999999996,
+      "situacao": "Saudável",
+      "id": 7
+    },
+    {
+      "nome": "José",
+      "altura": 1.9,
+      "peso": 80,
+      "IMC": 22.1606648199446,
+      "situacao": "Saudável",
+      "id": 8
+    },
+    {
+      "nome": "amy lee",
+      "altura": 1.63,
+      "peso": 60,
+      "IMC": 22.582709172343712,
+      "situacao": "Saudável",
+      "id": 9
+    },
+    {
+      "nome": "Zacarias",
+      "altura": 1.7,
+      "peso": 60,
+      "IMC": 20.761245674740486,
+      "situacao": "Saudável",
+      "id": 10
+    },
+    {
+      "nome": "Maria Rocha",
+      "altura": 1.9,
+      "peso": 200,
+      "IMC": 55.4016620498615,
+      "situacao": "Obesidade Grau III",
+      "id": 11
+    },
+    {
+      "nome": "Pedro",
+      "altura": 1.8,
+      "peso": 63,
+      "IMC": 19.444444444444443,
+      "situacao": "Saudável",
+      "id": 12
+    },
+    {
+      "nome": "marcos",
+      "altura": 1.64,
+      "peso": 62,
+      "IMC": 23.051754907792983,
+      "situacao": "Saudável",
+      "id": 13
+    }
+  ],
+  "calculadora" : []
+}

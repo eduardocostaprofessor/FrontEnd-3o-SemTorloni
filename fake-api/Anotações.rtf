@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16660\viewh11740\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs40 \cf0 JSON SERVER\
+
+\f1\b0 \
+	Facilitar o desenvolvimento Front-End, pra voc\'ea n\'e3o ter que esperar o programador Back-End desenvolver a API\
+	Cria uma API Falsa (API Rest)\
+	db.json\
+\
+
+\f0\b Como Instalar\
+	
+\f1\b0 Abrir o terminal, pode ser do VSCode ou n\'e3o e rodar o seguinte comando:\
+	
+\f0\b npm install -g json-server\
+		
+\f1\b0 (com a flag/par\'e2metro) 
+\f0\b -g 
+\f1\b0 voc\'ea instala o json-server de forma global, para qualquer projeto que voc\'ea precisar usar depois.\
+	criar o arquivo 
+\f0\b db.json 
+\f1\b0 na raiz do seu projeto (no VScode) - Este arquivo serve como banco de dados do Json Server e ele mesmo controla esse arquivo a cada requisi\'e7\'e3o\
+\
+
+\f0\b Exemplo de Estrutura:
+\f1\b0 \
+\
+	\{\
+		\'93Rota/EndPoint\'94 : [\
+			\{\'93id\'94 : 1, \'93dado-qualquer\'94 : \'93valor qualquer\'94\}\
+		] \
+	\}\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Exemplo Fict\'edcio:\
+	
+\f1\b0 \{\
+		\'93usuario\'94 : [\
+			\{\'93id\'94 : 1, \'93nome\'94 : \'93Eduardo Costa\'94, : \'93email\'94 : \'93edu@gmail.com\'94, \'93idade\'94 : 30\},\
+			\{\'93id\'94 : 2, \'93nome\'94 : \'93Matheus Lima\'94, \'93email\'94 : \'93matheus@lima.com\'94, \'93idade\'94 pra 17\}\
+		]\
+	\}\
+\
+\
+	No VSCode devemos abrir o terminal e alterar para o terminal do git bash (testar o do windows?)\
+	Rodar  o comando 
+\f0\b json-server --watch db.json
+\f1\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+Exerc\'edcio de fixa\'e7\'e3o:\
+Entrar No PostMan,\
+Criar as requisi\'e7\'f5es:\
+\
+	
+\f0\b Cadastrar Usu\'e1rio 
+\f1\b0 (Post)
+\f0\b \
+	ListarUsu\'e1rios		
+\f1\b0 (Get)
+\f0\b \
+	Listar Um Usu\'e1rio 
+\f1\b0 (Get)
+\f0\b \
+	Editar Usu\'e1rio		
+\f1\b0 (Put)
+\f0\b \
+	Apagar Usu\'e1rio	
+\f1\b0 (Delete)\
+\
+Voc\'ea deve cadastrar pelo 3 usu\'e1rios\
+\
+Cadastrar uma rota de posts (texto, imagem, qtdCurditas)\
+\
+\
+\
+\
+\
+\
+}
