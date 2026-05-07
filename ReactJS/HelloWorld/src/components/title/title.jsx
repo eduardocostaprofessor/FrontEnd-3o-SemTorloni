@@ -1,6 +1,12 @@
-function Title(props) {
+function Title(xpto) {
     return (
-         <h1>{props.texto}</h1>
+         <h1>
+            {xpto.texto}
+            <br />
+            {xpto.nome} <br />
+            {xpto.sobrenome}
+
+        </h1>
     );
 }
 

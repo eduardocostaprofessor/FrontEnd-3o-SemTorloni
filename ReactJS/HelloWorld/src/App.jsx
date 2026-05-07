@@ -4,7 +4,7 @@ import Title from "./components/title/title";
 function App() {
   return (
     <>
-      <Title texto="Bem Vindo, sou Título" />
+      <Title nome="Eduardo" sobrenome="Costa" texto="Bem Vindo, sou Título" />
       <Title texto="Eu sou outro Título" />
       <Paragrafo textoParagrafo = "Lorem Ipsun dolor!!!" />
     </>
