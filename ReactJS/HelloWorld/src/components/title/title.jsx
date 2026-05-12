@@ -1,11 +1,11 @@
-function Title(xpto) {
+// destructuring
+function Title({nome, sobrenome, texto}) {
     return (
          <h1>
-            {xpto.texto}
+            {texto}
             <br />
-            {xpto.nome} <br />
-            {xpto.sobrenome}
-
+            {nome} <br />
+            {sobrenome}
         </h1>
     );
 }
