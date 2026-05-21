@@ -1,7 +1,19 @@
 {
-    "frutas" : [
-        {"id" : 1, "nome" : "Abacaxi", "quantidade": 10},
-        {"id" : 2, "nome" : "Limão", "quantidade": 50}
-
-    ]
+  "produtos": [
+    {
+      "titulo": "Computador",
+      "descricao": "Note legal",
+      "preco": 45,
+      "imagem": "hero.png",
+      "id": "MXoN3KVUyJE"
+    },
+    {
+      "titulo": "Computador 29",
+      "descricao": "Samsumg A16",
+      "preco": 333,
+      "imagem": "hero.png",
+      "id": "w-PNuXyDxbw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
